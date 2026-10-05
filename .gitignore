@@ -1,0 +1,25 @@
+# Configuração local e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências, build e testes locais
+node_modules/
+dist/
+coverage/
+
+# Logs e arquivos temporários
+*.log
+npm-debug.log*
+*.tmp
+*.swp
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
